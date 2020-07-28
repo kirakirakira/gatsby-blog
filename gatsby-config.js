@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: `/gatsby-blog`,
   siteMetadata: {
-    title: `Just for fun`,
+    title: `Engineer the new you`,
     author: {
       name: `Kira`,
       summary: `who lives and works in her house and basically never leaves anymore.`,
@@ -34,7 +34,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 1200,
+              maxWidth: 590,
             },
           },
           {
@@ -61,13 +61,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Just for fun`,
+        name: `Engineer the new you`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/japanesecat.jpg`,
+        icon: `content/assets/profile-pic.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
